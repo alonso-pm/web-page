@@ -30,15 +30,15 @@ function funcky(){
 
     if(userName.value == ""){
         console.log("emptyNameField");
-        alert("Name is Missing");
+        alert("Name Missing");
     }
     if (inputTXT.value == ""){
         console.log("emptyInputField");
-        alert("Message is missing");
+        alert("Message missing");
     }
     if(dateInput.value == ""){
         console.log("emptyDateField");
-        alert("Date is missing");    
+        alert("Expiration date missing");    
     }
     if(inputTXT.value != "" && dateInput.value != "" && userName.value != "" ){
         tbl = document.getElementById('tbl');
