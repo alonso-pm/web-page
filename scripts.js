@@ -46,3 +46,14 @@ function funcky(){
         addRow(tbl, 'LP CHATBOT', 'En breve un operador te contactará' + 'a mas tardar' + dateInput.value);
     }
 }
+
+lpTag.sdes = lpTag.sdes||[];
+lpTag.sdes.push(
+   {
+        "type": "error",  //MANDATORY
+        "error": {
+           "message": "Expiration date missing",  // THE ERROR MESSAGE
+           "code": "er100004"  // THE ERROR CODE 
+        }
+   }
+);
